@@ -20,7 +20,8 @@ else:
             else:
                 print("The number has more than four digits")
 
-
+#check if the number is positive and it has two digits and if the number has three digits verify if it's negative
+                
 num = int(input("Type a integer number: "))
 '''numP = str("The number typed is a postive number")
 numN = str("The number typed is a negative number")'''
