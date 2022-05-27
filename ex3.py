@@ -43,7 +43,34 @@ print(spaceFound)
 emailHost = data[position+1:spaceFound]
 print("The email host that use this address is "+ emailHost)
              
-             
+ #Formato operators
+#s String
+#d Decimal (Number)
+
+cosas = 45
+print(type("%d" % cosas))
+
+print("tengo %d cosas" % cosas)
+
+#skip a line in terminal \n - tab \t
+stringEx = "Hi\nWorld"
+print(stringEx)
+
+#if you don't want declare R from start
+stringEx = r"Hi \n World"
+print(stringEx)
+
+#count how many same values there are
+stringEx = "un uno, un dos, un tres"
+print(stringEx.count("un"))
+
+#count how many same values there are from a second value
+stringEx = "un uno, un dos, un tres"
+print(stringEx.count("un", 5))
+
+#count how many same values there are from a second value to value
+stringEx = "un uno, un dos, un tres"
+print(stringEx.count("un", 5,10))            
 
              
 #-------------- TEACHER NOTES -----------------             
