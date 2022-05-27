@@ -1,3 +1,42 @@
+#SUMMARY - Strings - Methods
+# Note: I had my own notes but i forget save it...
+
+# Select a index character []
+wordEx = "example"
+varWordEx = wordEx[1] #number index
+#Note: You can select in reverse mode with negative value [-1]
+
+# Get lenght of a string
+print(len(wordEx))
+
+# Take a part of string :
+print(wordEx[5:10])
+print(wordEx[5:]) #without second value asigned select since first value to next
+print(wordEx[:5) #without first value select since first index(0) to second value
+             
+#The strings are inmutable, but you can create a variable using this
+var1 = "strawberry"
+var2 = "black", var[4:]
+print(var2)
+
+#IN operator, if a part a character (or string) is in a string: Two results (True, False)
+print("berry" in var1)
+             
+#Comparison - when we compare two strings the greater value is the has capital letter
+Pear > pear
+
+#---------- METHODS ----------
+print(var1.uppper()) #become to capital letter ALL
+print(var1.find("a")) #return the index position of a value
+print(var1.strip()) #remove white spaces at start and end
+print(var1.startswith("straw")) #verify if a string starts with inserted value
+print(var1.startswith("y")) #verify if a string ends with inserted value
+
+
+
+             
+#-------------- TEACHER NOTES -----------------             
+
 # Acceder a los caracteres de uno en uno en la cadena (String)
 
 # ejercicio 1
