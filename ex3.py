@@ -28,6 +28,7 @@ Pear > pear
 #---------- METHODS ----------
 print(var1.uppper()) #become to capital letter ALL
 print(var1.find("a")) #return the index position of a value
+  print(var1.find("a",3)) #return the index position of a value from two second value asigned 
 print(var1.strip()) #remove white spaces at start and end
 print(var1.startswith("straw")) #verify if a string starts with inserted value
 print(var1.startswith("y")) #verify if a string ends with inserted value
