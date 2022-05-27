@@ -33,7 +33,17 @@ print(var1.strip()) #remove white spaces at start and end
 print(var1.startswith("straw")) #verify if a string starts with inserted value
 print(var1.startswith("y")) #verify if a string ends with inserted value
 
+#get emailhost use by email
 
+data = 'Of test@gmail.com.co Sat Jan 5 09:14:16 2008'
+position = data.find('@') # return position of "@"
+print(position)
+spaceFound = data.find(' ', position)
+print(spaceFound)
+emailHost = data[position+1:spaceFound]
+print("The email host that use this address is "+ emailHost)
+             
+             
 
              
 #-------------- TEACHER NOTES -----------------             
